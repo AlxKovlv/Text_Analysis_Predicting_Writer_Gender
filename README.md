@@ -16,7 +16,7 @@ The project relies on the following dataset files:
 
 Before running the project, ensure you have the following dependencies installed:
 
-- Python (>=3.6)
+- Python (>=3)
 - scikit-learn
 - pandas
 - numpy
