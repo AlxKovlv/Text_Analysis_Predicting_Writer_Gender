@@ -1,0 +1,51 @@
+2023-09-03 18:20:09,948 - INFO - adding document #0 to Dictionary<0 unique tokens: []>
+2023-09-03 18:20:10,399 - INFO - using symmetric alpha at 0.2
+2023-09-03 18:20:10,400 - INFO - using symmetric eta at 0.2
+2023-09-03 18:20:10,405 - INFO - using serial LDA version on this node
+2023-09-03 18:20:10,421 - INFO - running online (multi-pass) LDA training, 5 topics, 15 passes over the supplied corpus of 753 documents, updating model once every 753 documents, evaluating perplexity every 753 documents, iterating 50x with a convergence threshold of 0.001000
+2023-09-03 18:20:11,461 - INFO - -11.442 per-word bound, 2781.6 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:11,462 - INFO - PROGRESS: pass 0, at document #753/753
+2023-09-03 18:20:12,128 - INFO - topic diff=2.045111, rho=1.000000
+2023-09-03 18:20:13,116 - INFO - -8.985 per-word bound, 506.7 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:13,117 - INFO - PROGRESS: pass 1, at document #753/753
+2023-09-03 18:20:13,783 - INFO - topic diff=0.631134, rho=0.577350
+2023-09-03 18:20:14,739 - INFO - -8.832 per-word bound, 455.7 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:14,740 - INFO - PROGRESS: pass 2, at document #753/753
+2023-09-03 18:20:15,297 - INFO - topic diff=0.427620, rho=0.500000
+2023-09-03 18:20:16,171 - INFO - -8.771 per-word bound, 436.7 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:16,172 - INFO - PROGRESS: pass 3, at document #753/753
+2023-09-03 18:20:16,695 - INFO - topic diff=0.274440, rho=0.447214
+2023-09-03 18:20:17,572 - INFO - -8.745 per-word bound, 429.0 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:17,573 - INFO - PROGRESS: pass 4, at document #753/753
+2023-09-03 18:20:18,098 - INFO - topic diff=0.177275, rho=0.408248
+2023-09-03 18:20:18,973 - INFO - -8.732 per-word bound, 425.3 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:18,974 - INFO - PROGRESS: pass 5, at document #753/753
+2023-09-03 18:20:19,493 - INFO - topic diff=0.116436, rho=0.377964
+2023-09-03 18:20:20,365 - INFO - -8.725 per-word bound, 423.3 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:20,366 - INFO - PROGRESS: pass 6, at document #753/753
+2023-09-03 18:20:20,884 - INFO - topic diff=0.078488, rho=0.353553
+2023-09-03 18:20:21,770 - INFO - -8.721 per-word bound, 422.0 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:21,771 - INFO - PROGRESS: pass 7, at document #753/753
+2023-09-03 18:20:22,292 - INFO - topic diff=0.054782, rho=0.333333
+2023-09-03 18:20:23,178 - INFO - -8.718 per-word bound, 421.2 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:23,180 - INFO - PROGRESS: pass 8, at document #753/753
+2023-09-03 18:20:23,708 - INFO - topic diff=0.040102, rho=0.316228
+2023-09-03 18:20:24,671 - INFO - -8.716 per-word bound, 420.5 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:24,672 - INFO - PROGRESS: pass 9, at document #753/753
+2023-09-03 18:20:25,199 - INFO - topic diff=0.031082, rho=0.301511
+2023-09-03 18:20:26,068 - INFO - -8.714 per-word bound, 420.0 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:26,069 - INFO - PROGRESS: pass 10, at document #753/753
+2023-09-03 18:20:26,596 - INFO - topic diff=0.025486, rho=0.288675
+2023-09-03 18:20:27,451 - INFO - -8.713 per-word bound, 419.5 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:27,452 - INFO - PROGRESS: pass 11, at document #753/753
+2023-09-03 18:20:27,967 - INFO - topic diff=0.021943, rho=0.277350
+2023-09-03 18:20:28,846 - INFO - -8.711 per-word bound, 419.1 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:28,847 - INFO - PROGRESS: pass 12, at document #753/753
+2023-09-03 18:20:29,358 - INFO - topic diff=0.019605, rho=0.267261
+2023-09-03 18:20:30,240 - INFO - -8.710 per-word bound, 418.8 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:30,241 - INFO - PROGRESS: pass 13, at document #753/753
+2023-09-03 18:20:30,772 - INFO - topic diff=0.017973, rho=0.258199
+2023-09-03 18:20:31,642 - INFO - -8.709 per-word bound, 418.4 perplexity estimate based on a held-out corpus of 753 documents with 250185 words
+2023-09-03 18:20:31,643 - INFO - PROGRESS: pass 14, at document #753/753
+2023-09-03 18:20:32,157 - INFO - topic diff=0.016785, rho=0.250000
+2023-09-03 18:20:32,159 - INFO - LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=34957, num_topics=5, decay=0.5, chunksize=2000> in 21.74s', 'datetime': '2023-09-03T18:20:32.159128', 'gensim': '4.3.2', 'python': '3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
