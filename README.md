@@ -35,9 +35,10 @@ Upon running the project, the best-performing model is an SVM classifier with th
 
 The SVM model achieved a Cross-Validated Average F1 Score of 0.7703 on the provided training data. The predictions for the test data are saved in `submission_svm.csv`.
 
+**Note:** Some of the output may not be rendered correctly in the GitHub environment. For the best results, it is recommended to open this project in a Jupyter Notebook.
+
 Detailed logs of the training process and hyperparameter optimization for this model are available in `text_analysis_TIMESTAMP.log`.
 
 ## Acknowledgments
 
 This project was created by Alexey Kovalev and is intended for educational purposes. It incorporates various techniques for gender prediction in Hebrew text data, including ensemble voting and dynamic hyperparameter tuning.
-
