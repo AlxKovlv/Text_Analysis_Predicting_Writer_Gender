@@ -25,16 +25,19 @@ Before running the project, ensure you have the following dependencies installed
 
 ## Results
 
-Upon running the project, you will find the following output files:
+Upon running the project, the best-performing model is an SVM classifier with the following hyperparameters:
 
-- `submission_ensemble.csv`: Predictions for the test data using the ensemble model.
+- C: 10.0
+- Kernel: Sigmoid
+- Max Iterations: 1000
+- Degree: 2
+- Coefficient 0: 0.0
 
-- `text_analysis_TIMESTAMP.log`: Detailed logs of the training process and hyperparameter optimization for the best-performing ensemble model.
+The SVM model achieved a Cross-Validated Average F1 Score of 0.7703 on the provided training data. The predictions for the test data are saved in `submission_svm.csv`.
+
+Detailed logs of the training process and hyperparameter optimization for this model are available in `text_analysis_TIMESTAMP.log`.
 
 ## Acknowledgments
 
-This project was created by [Your Name] and is intended for educational purposes. It incorporates various techniques for gender prediction in Hebrew text data, including ensemble voting and dynamic hyperparameter tuning.
+This project was created by Alexey Kovalev and is intended for educational purposes. It incorporates various techniques for gender prediction in Hebrew text data, including ensemble voting and dynamic hyperparameter tuning.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
